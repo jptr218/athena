@@ -2,4 +2,4 @@
 ## Athena can be downloaded [here](https://github.com/jptr218/athena/raw/main/athena.exe) (you will need to run it from the command line)
 ### Usage:
 
-### `athena [taregt] [old destination] [new destination] `
+### `athena [target] [old destination] [new destination] `
