@@ -60,7 +60,7 @@ int main(int argc, char* argv[]) {
 
     cout << endl << "Press CTRL+C to stop." << endl;
     
-    redirect(ifaces[stoi(ifacen) - 1], target, odest, ndest, inet_addr(string(argv[2]).c_str()), inet_addr(string(argv[3]).c_str()));
+    redirect(ifaces[stoi(ifacen) - 1], target, odest, ndest, inet_addr(string(argv[1]).c_str()), inet_addr(string(argv[3]).c_str()));
     
     return 1;
 }
